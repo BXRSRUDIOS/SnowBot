@@ -14,4 +14,4 @@ client.on('ready', () => {
   .setSyntaxError('Incorrect syntax! Please use {PREFIX}{COMMAND} {ARGUMENTS}')
 })
 
-client.login(process.env.TOKEN)
+client.login(process.env.DJS_TOKEN)
